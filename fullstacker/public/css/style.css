@@ -164,16 +164,80 @@
     font-weight: bold; /* Make links bold */
     padding: 10px 15px; /* Add padding to links */
     border-radius: 0; /* Remove border radius */
-    transition: border-bottom 0.3s; /* Add transition for hover effect */
-    border-bottom: 2px solid transparent; /* Initial border-bottom */
+    position: relative; /* Required for ::after positioning */
+    transition: color 0.3s; /* Add transition for color */
+  }
+  
+  .custom-nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s; /* Add transition for background color */
+  }
+  
+  .custom-nav-link:hover::after {
+    background-color: #89A8B2; /* Change border color on hover */
   }
   
   .custom-nav-link:hover {
-    border-bottom: 2px solid #B3C8CF; /* Change border color on hover */
     color: #89A8B2 !important; /* Change text color on hover */
   }
   
   .custom-nav-link.active {
-    color: #89A8B2 !important; /* Change background color for active link */
-    background-color: transparent !important;
+    color: #89A8B2 !important; /* Change text color for active link */
+    background-color: white !important;
   }
+  
+  .custom-nav-link.active::after {
+    background-color: #B3C8CF; /* Ensure underline for active link */
+  }
+  .nav-item {
+    margin-right: 15px;
+  }
+
+  .circle-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .custom-box {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .custom-text {
+    margin-top: 10px;
+    font-size: 16px; /* Adjust size as needed */
+  }
+  
+  .white-box {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .white-box i {
+    font-size: 24px; /* Adjust size as needed */
+    color: #343a40; /* Adjust color as needed */
+  }
+
+  .content-box {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    padding: 30px;
+}
+.container-fluid {
+    background-color: #f5f2ee;
+}
+
