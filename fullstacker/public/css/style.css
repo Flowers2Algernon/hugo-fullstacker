@@ -121,3 +121,59 @@
     font-style: normal;
   }
   
+.open-sans-detail{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .kalam-light {
+    font-family: "Kalam", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-display: center;
+  }
+  
+  .kalam-regular {
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kalam-bold {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .align-middle {
+    vertical-align: middle;
+  }
+  
+  .custom-nav {
+    background-color: #f8f9fa; /* Change background color */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px; /* Add padding */
+  }
+  
+  .custom-nav-link {
+    color: #343a40 !important; /* Change text color */
+    font-weight: bold; /* Make links bold */
+    padding: 10px 15px; /* Add padding to links */
+    border-radius: 0; /* Remove border radius */
+    transition: border-bottom 0.3s; /* Add transition for hover effect */
+    border-bottom: 2px solid transparent; /* Initial border-bottom */
+  }
+  
+  .custom-nav-link:hover {
+    border-bottom: 2px solid #B3C8CF; /* Change border color on hover */
+    color: #89A8B2 !important; /* Change text color on hover */
+  }
+  
+  .custom-nav-link.active {
+    color: #89A8B2 !important; /* Change background color for active link */
+    background-color: transparent !important;
+  }
