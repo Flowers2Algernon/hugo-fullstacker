@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://flowers2algernon.github.io/hugo-fullstacker/'
 languageCode = 'en-us'
 title = 'fullstacker'
 theme = 'fullstacker'
