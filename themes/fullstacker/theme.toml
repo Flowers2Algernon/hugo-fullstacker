@@ -4,28 +4,16 @@ licenselink = 'https://github.com/owner/repo/LICENSE'
 description = 'Theme description'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = https://github.com/Flowers2Algernon/hugo-fullstacker
 
 # If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
+demosite = https://flowers2algernon.github.io/hugo-fullstacker/
 
 # Taxonomy terms
-tags = ['blog', 'company']
+tags = ['blog', 'personal', 'portfolio']
 features = ['some', 'awesome', 'features']
 
-# If the theme has multiple authors
-authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
-]
-
-# If the theme has a single author
 [author]
-  name = 'Your name'
+  name = Jinhong Zhu
   homepage = 'Your website'
 
-# If porting an existing theme
-[original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
