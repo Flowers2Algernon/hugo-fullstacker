@@ -240,3 +240,20 @@
 .container-fluid {
     background-color: #f5f2ee;
 }
+
+.dongle-regular {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-btn-hover-1:hover {
+  background-color: #89A8B2 !important;
+  border-color: #89A8B2 !important;
+  color: #F1F0E8;
+}
+
+.custom-btn-hover-2:hover {
+  background-color: #B3C8CF !important;
+  border-color: #B3C8CF !important;
+}
